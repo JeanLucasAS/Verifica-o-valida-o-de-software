@@ -1,0 +1,9 @@
+# Dependências do projeto
+# Python 3.7 ou superior
+
+# Para geração de PDF (opcional - usar reportlab ou fpdf)
+# reportlab==4.0.4
+
+# Para testes (unittest já vem com Python, mas pytest é uma alternativa)
+# pytest==7.4.0
+
