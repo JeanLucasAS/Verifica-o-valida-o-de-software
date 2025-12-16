@@ -10,6 +10,7 @@ verificacao e validacao/
 │   ├── user_system.py      # Sistema principal de cadastro
 │   └── validators.py       # Funções de validação (e-mail e senha)
 ├── tests/
+│   ├── user_register.py    # Sistema de interface de execução de cadastros
 │   └── test_user_system.py # Testes automatizados
 ├── plano_testes.md         # Plano de testes funcionais
 ├── requirements.txt        # Dependências do projeto
@@ -120,4 +121,4 @@ Os testes automatizados validam:
 - O sistema utiliza `unittest`, que já vem incluído no Python.
 - Não são necessárias dependências externas para executar os testes.
 - O código está modularizado conforme RNF02.
-
+- O arquivo user_system.py contém apenas a lógica de negócio do sistema, enquanto a execução e a demonstração do cadastro são realizadas em módulos separados, o que facilita a verificação e validação por meio de testes automatizados.
